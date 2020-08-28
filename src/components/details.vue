@@ -425,6 +425,9 @@
          width: 100%;
         overflow:auto;
      }
+     .function::-webkit-scrollbar{
+        height:0px;
+    }
      .function ul{
         width: 220%;
       
@@ -577,6 +580,9 @@
         width: 50%;
         height: 24vh;
     }
+    .pa::-webkit-scrollbar{
+        height:0px;
+    }
     .pa ul{
         width: 193%;
         overflow: hidden;
@@ -642,6 +648,9 @@
         width: 95%;
         overflow-x:auto;
         overflow-y:hidden;
+    }
+    .user1::-webkit-scrollbar{
+        height:0px;
     }
     .user1 ul{
         width:281%;

@@ -322,6 +322,9 @@ export default {
         overflow: auto;
         margin-top: 3vh;
     }
+    .con1_r::-webkit-scrollbar{
+        height:0px;
+    }
     .con1_r ul{
         width: 400%;
         overflow: hidden;
