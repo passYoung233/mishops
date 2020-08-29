@@ -1,7 +1,7 @@
 <template>
     <main>       
         <div class="rolls"> 
-            <mt-swipe :auto="0">
+            <mt-swipe :auto="3000">
                 <mt-swipe-item v-for="(item,index) in list">
                     <img :src="item.src" alt="">
                 </mt-swipe-item>

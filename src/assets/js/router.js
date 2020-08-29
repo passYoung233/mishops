@@ -28,7 +28,6 @@ import time4 from '../../components/time4.vue'
 import details from '../../components/details.vue'
 
 
-
 export default new VueRouter({
     routes:[
 
